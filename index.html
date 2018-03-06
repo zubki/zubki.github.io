@@ -10,29 +10,7 @@
 	<link rel="icon" href="index_files/favicon.ico" type="image/x-icon">
 
 	<link media="all" href="index_files/index.css" type="text/css" rel="stylesheet">
-  <!--    передaчa UTM-->
 
-    <script type="text/javascript">
-
-            var param = location.search;
-
-            $(document).ready(function() {
-                $('.priceGeo').each(function() {
-                    $(this).text("");
-                });
-                $('a').each(function() {
-      
-
-                    $(this).attr('href', 'http://denta.buyairtickets.ru/' + param);
-
-
-                });
-            });
-
-
-    </script>
-
-    <!--    передaчa UTM-->
 
     <!-- Facebook Pixel Code -->
 <script>
@@ -251,6 +229,31 @@
 		</div>
 		<div class="footer"> Все права защищены © <span class="ryear">2018</span></div>
 	</div>
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <!--    передaчa UTM-->
+
+    <script type="text/javascript">
+
+            var param = location.search;
+
+            $(document).ready(function() {
+                $('.priceGeo').each(function() {
+                    $(this).text("");
+                });
+                $('a').each(function() {
+      
+
+                    $(this).attr('href', 'http://denta.buyairtickets.ru/' + param);
 
 
+                });
+            });
+
+
+    </script>
+
+    <!--    передaчa UTM-->
 </body></html>
